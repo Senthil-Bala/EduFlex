@@ -1,0 +1,42 @@
+.faq-container {
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    margin-top: 3rem;
+  }
+  
+  .faq-heading {
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  }
+  
+  .accordion-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .custom-accordion {
+    width: 80%;
+  }
+  
+  /* Adding style for accordion headers */
+  .custom-accordion .accordion-header {
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  /* Reduce the overall height of accordion items */
+  .custom-accordion .accordion-item {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  /* Reduce the height of the accordion body */
+  .custom-accordion .accordion-body {
+    padding: 10px; /* Adjust padding as needed */
+  }
+  

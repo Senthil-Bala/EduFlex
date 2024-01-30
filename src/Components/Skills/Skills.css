@@ -1,0 +1,44 @@
+.class {
+    width: 1214px;
+    height: 420px;
+    flex-shrink: 0;
+    background: #F0FEFD;
+}
+.class p{
+    color: #000;
+font-family: Arial;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.card-img {
+    width: 268px;
+    height: 180px;
+}
+.card-container{
+    display: inline-flex;
+padding: 20px 10px;
+flex-direction: column;
+align-items: center;
+gap: 7px;
+}
+
+.card-container p {
+    color: #0047FF;
+    font-family: Arial;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card-container button{
+    display: flex;
+/* padding: 10px 65px; */
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: #0047FF;
+}

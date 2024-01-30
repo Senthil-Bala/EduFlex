@@ -1,0 +1,68 @@
+.form-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 1154px; */
+height: 380px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 1px solid #0047FF;
+margin-top: 2rem;
+}
+
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.form-element button{
+    display: inline-flex;
+    color: #FFF;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+    border-radius: 5px;
+    background: #F44;
+}
+.form-element p{
+    color: #0047FF;
+text-align: center;
+font-family: Arial;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.contact-img img{
+    width: 257px;
+height: 351px;
+flex-shrink: 0;
+}
+.textField{
+    width: 430px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 10px;
+/* border: 1px solid #000; */
+background: #FFF;
+padding: 0.5rem;
+}
+/* Add this to your CSS file */
+.toastify-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+  }
+  
+  /* Customize the position of the toast within the container if needed */
+  .Toastify__toast {
+    /* Example styles: adjust as needed */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  

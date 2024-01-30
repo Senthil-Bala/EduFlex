@@ -1,0 +1,49 @@
+.persons p {
+    color: #000;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-top: 5rem; */
+}
+
+span {
+    color: #0047FF;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.test-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.persons {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#andrewName,
+#johnName,
+#emmaName {
+    font-size: 24px;
+}
+
+#andrewDesc,
+#johnDesc,
+#emmaDesc {
+    width: 303px;
+    height: 126px;
+    color: #474747;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}

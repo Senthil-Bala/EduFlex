@@ -1,0 +1,19 @@
+.footers-div{
+    /* width: 1448px; */
+height: 430px;
+flex-shrink: 0;
+background: #01032D;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 2rem;
+}
+.footers-div p{
+    color: #ADADAD;
+text-align: center;
+font-family: Arial;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
